@@ -1592,11 +1592,11 @@ table.dataTable thead > tr > td.sorting {
     z-index: 10;
 }
 .mobile-user-menu > a {
-    color: #fff;
+    color: black;
     padding: 0;
 }
 .mobile-user-menu a:hover {
-	color: #fff;
+	color: black;
 }
 .mobile-user-menu > .dropdown-menu {
 	min-width: 130px;
@@ -8197,7 +8197,24 @@ ul.comment-list li ul.children {
 	.page-title-box {
 		display: none;
 	}
+	.header {
+		background: rgba(255, 255, 255, 1);;
+		border-bottom: 1px solid transparent;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+		height: 60px;
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 1040;
+	}
 	.sidebar {
+		border-right: 1px solid transparent;
+		bottom: 0;
+		left: 0;
+		margin-top: 0;
+		position: fixed;
+		top: 60px;
 		margin-left: -225px;
 		width: 225px;
 		-webkit-transition: all 0.4s ease;
@@ -8205,13 +8222,37 @@ ul.comment-list li ul.children {
 		transition: all 0.4s ease;
 		z-index: 1041;
 	}
+	.noti-dot:before {
+		border-right: 17px solid transparent;
+		border-top: 17px solid transparent;
+		border-bottom: 17px solid transparent;
+		content: "";
+		display: inline-block;
+		position: absolute;
+		right: 0px;
+		opacity: 1;
+		top: 4px;
+		transition: opacity 150ms ease-in;
+	}
+	.noti-dot:after {
+		border-right: 17px solid transparent;
+		border-top: 17px solid transparent;
+		border-bottom: 17px solid transparent;
+		content: "";
+		display: inline-block;
+		position: absolute;
+		right: 0px;
+		opacity: 1;
+		top: 4px;
+		transition: opacity 150ms ease-in;
+	}
 	.page-wrapper {
 		margin-left: 0;
 		padding-left: 0;
 		padding-right: 0;
 	}
 	a.mobile_btn {
-		color: #fff;
+		color: #3b5c03;
 		font-size: 24px;
 		height: 60px;
 		left: 0;
@@ -8337,6 +8378,14 @@ ul.comment-list li ul.children {
 		right: 60px;
 	}
 	.header {
+		background: rgba(255, 255, 255, 1);;
+		border-bottom: 1px solid transparent;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+		height: 60px;
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
 		z-index: 1040;
 	}
 	.task-wrapper #task-list li .task-container .task-label {
@@ -8615,6 +8664,27 @@ ul.comment-list li ul.children {
 	.add-btn {
 		font-size: 14px;
 		min-width: inherit;
+	}
+}
+@media only screen and (max-width: 425.98px) {
+	.fitur-tema2 {
+		display: inline-block !important;
+		list-style-type: none;
+		margin-left: 320px;
+	}
+}
+@media only screen and (max-width: 375.98px) {
+	.fitur-tema2 {
+		display: inline-block !important;
+		list-style-type: none;
+		margin-left: 270px !important;
+	}
+}
+@media only screen and (max-width: 320.98px) {
+	.fitur-tema2 {
+		display: inline-block !important;
+		list-style-type: none;
+		margin-left: 220px !important;
 	}
 }
 /*Project Board*/
@@ -11594,4 +11664,53 @@ ul.nav-tabs > li > a {
 	border: 2px solid #fff;
 	margin: 0;
 	bottom: 12px;
+}
+
+.fitur-tema2 {
+	display: none;
+    border-radius: 30px;
+    text-align: center;
+	background-color: rgba(217, 217, 217, 0.6);
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+	box-shadow: 0 0 #0000;
+}
+
+.fitur-tema2-sub-terang {
+	 border-radius: 10px;
+	 text-align: center;
+	 background-color: rgb(17 24 39 / .07);
+	 height: 32px;
+	 width: 32px;
+	 margin-left: -6px;
+	 box-shadow: 0 0 #0000;
+}
+
+.fitur-tema2-sub-gelap {
+	border-radius: 10px;
+	text-align: center;
+	background-color: rgb(17 24 39 / .07);
+	height: 32px;
+	width: 32px;
+	margin-left: -6px;
+	box-shadow: 0 0 #0000;
+}
+
+.fitur-tema2-tulisan-terang {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 38px;
+    margin-top: -27px;
+}
+
+.fitur-tema2-tulisan-gelap {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 38px;
+    margin-top: -27px;
 }
