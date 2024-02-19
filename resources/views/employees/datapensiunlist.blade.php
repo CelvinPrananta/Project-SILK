@@ -17,8 +17,8 @@
                     </div>
                     <div class="col-auto float-right ml-auto">
                         <div class="view-icons">
-                            <a href="{{ route('daftar/pegawai/pensiun/card') }}" class="grid-view btn btn-link active"><i class="fa fa-th"></i></a>
-                            <a href="{{ route('daftar/pegawai/pensiun/list') }}" class="list-view btn btn-link"><i class="fa fa-bars"></i></a>
+                            <a href="{{ route('daftar/pegawai/pensiun/card') }}" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+                            <a href="{{ route('daftar/pegawai/pensiun/list') }}" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
                         </div>
                     </div>
                 </div>

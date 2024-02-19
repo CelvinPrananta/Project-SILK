@@ -27,7 +27,7 @@
 
             <!-- Export Excel -->
             <form action="{{ route('export-daftar-pegawai') }}" method="GET">
-                <button type="submit" name="export" value="true" class="btn btn-success" style="border-radius : 20px">
+                <button type="submit" name="export" value="true" class="btn cetak-btn" style="border-radius : 20px">
                     <i class="fa fa-file-excel"></i> Export Excel
                 </button>
             </form>

@@ -33,7 +33,7 @@
                     </select>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <button id="cetakDokumenKelengkapan" class="btn btn-success" style="border-radius: 20px"><i class="fa-solid fa-file-pdf"></i> Dokumen Kelengkapan</button>
+                    <button id="cetakDokumenKelengkapan" class="btn cetak-btn" style="border-radius: 20px"><i class="fa-solid fa-file-pdf"></i> Dokumen Kelengkapan</button>
                 </div>
                 
                 <!-- Cetak Dokumen Rekomendasi PDF -->
@@ -46,7 +46,7 @@
                     </select>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <button id="cetakDokumenRekomendasi" class="btn btn-success" style="border-radius: 20px"><i class="fa-solid fa-file-pdf"></i> Dokumen Rekomendasi</button>
+                    <button id="cetakDokumenRekomendasi" class="btn cetak-btn" style="border-radius: 20px"><i class="fa-solid fa-file-pdf"></i> Dokumen Rekomendasi</button>
                 </div>
 
                 <!-- Tampilan Lihat Semua Progress -->

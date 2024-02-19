@@ -27,7 +27,7 @@
                 $lastCuti = $data_cuti->last();
             @endphp
             @if ($lastCuti)
-                <a href="{{ route('layanan-cuti-kelengkapan2', ['id' => $lastCuti->id]) }}" target="_blank" class="btn btn-success" style="border-radius: 20px">
+                <a href="{{ route('layanan-cuti-kelengkapan2', ['id' => $lastCuti->id]) }}" target="_blank" class="btn cetak-btn" style="border-radius: 20px">
                     <i class="fa-solid fa-file-pdf"></i> Dokumen Kelengkapan
                 </a>&nbsp;&nbsp;
                 <button type="button" class="btn btn-info" id="lihatSemua" style="border-radius: 20px">

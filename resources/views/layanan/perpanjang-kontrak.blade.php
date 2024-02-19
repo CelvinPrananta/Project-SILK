@@ -28,7 +28,7 @@
                 $lastperpanjangan = $data_perpanjang_kontrak->last();
             @endphp
             @if ($lastperpanjangan)
-                <a href="{{ route('layanan-perpanjang-kontrak', ['id' => $lastperpanjangan->id]) }}" target="_blank" class="btn btn-success">
+                <a href="{{ route('layanan-perpanjang-kontrak', ['id' => $lastperpanjangan->id]) }}" target="_blank" class="btn cetak-btn">
                     <i class="fa-solid fa-file-pdf"></i> Dokumen Perpanjangan Kontrak
                 </a>
             @else

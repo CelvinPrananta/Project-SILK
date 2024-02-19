@@ -27,7 +27,7 @@
                 $lastperjanjian = $data_perjanjian_kinerja->last();
             @endphp
             @if ($lastperjanjian)
-                <a href="{{ route('layanan-perjanjian-kinerja', ['id' => $lastperjanjian->id]) }}" target="_blank" class="btn btn-success">
+                <a href="{{ route('layanan-perjanjian-kinerja', ['id' => $lastperjanjian->id]) }}" target="_blank" class="btn cetak-btn">
                     <i class="fa-solid fa-file-pdf"></i> Dokumen Perjanjian Kinerja
                 </a>
             @else
