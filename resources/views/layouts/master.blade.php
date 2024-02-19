@@ -184,9 +184,12 @@
         .noti-details{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .logo-text{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .fa{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
+        .fa-xl{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .cal-icon:after{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .bar-icon span{background-color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .apexcharts-legend-text{color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
+        .menu-title{color: {{ auth()->user()->warna_sistem_tulisan }} !important}
+        .sidebar .sidebar-left .text{color: {{ auth()->user()->warna_sistem_tulisan }} !important}
 
         .apexcharts-xaxistooltip, .apexcharts-yaxistooltip{background: {{ auth()->user()->warna_mode }} !important; color : {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .form-control{background-color: {{ auth()->user()->warna_mode }} !important; color: {{ auth()->user()->warna_sistem_tulisan }} !important;}
@@ -253,6 +256,7 @@
         .select2-container--default .select2-selection--single .select2-selection__rendered{background-color: {{ auth()->user()->warna_mode }} !important; color: {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .form-focus .select2-container--default .select2-selection--single .select2-selection__rendered{background-color: {{ auth()->user()->warna_mode }} !important; color: {{ auth()->user()->warna_sistem_tulisan }} !important;}
         .custom-select{background: {{ auth()->user()->warna_mode }} url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='{{ auth()->user()->warna_sistem_tulisan }}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat !important;}
+        .table-striped tbody tr:nth-of-type(odd){background-color: {{ auth()->user()->warna_mode }} !important;}
 
         .form-control::-webkit-input-placeholder{color: {{ auth()->user()->tabel_tulisan_tersembunyi }} !important;}
         .form-control::-moz-placeholder{color: {{ auth()->user()->tabel_tulisan_tersembunyi }} !important;}
@@ -261,14 +265,21 @@
         .form-control::placeholder{color: {{ auth()->user()->tabel_tulisan_tersembunyi }} !important;}
         .form-focus .focus-label{color: {{ auth()->user()->tabel_tulisan_tersembunyi }} !important;}
         
-        .table-striped tbody tr:nth-of-type(odd){background-color: {{ auth()->user()->tabel_warna }} !important;}
         .select2-container--default .select2-selection--single{background-color: {{ auth()->user()->tabel_warna }} !important;}
-
         .dropdown-menu{background-color: {{ auth()->user()->warna_dropdown_menu }} !important;}
         .dash-widget-icon{background-color: {{ auth()->user()->ikon_plugin }} !important;}
-        
         .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title{background: {{ auth()->user()->warna_mode_2 }} !important;}
         .select2-container--default .select2-results__option--selected{background-color: {{ auth()->user()->warna_mode_2 }} !important;}
+
+        @foreach($result_tema as $sql_user => $aplikasi_tema)
+            @if ($aplikasi_tema->tema_aplikasi == 'Gelap')
+                .header .has-arrow .dropdown-toggle:after{
+                    border-bottom: 2px solid {{ auth()->user()->warna_sistem_tulisan }} !important; 
+                    border-right: 2px solid {{ auth()->user()->warna_sistem_tulisan }} !important;
+                }
+                .noti-dot:after{border-right: 17px solid {{ auth()->user()->warna_sistem }} !important}
+            @endif
+        @endforeach
     </style>
 
     <!-- Main Wrapper -->
@@ -288,15 +299,7 @@
 
         <!-- Header -->
         <div class="header">
-            <!-- Logo -->
-            <div class="header-left">
-                <a href="{{ route('home') }}" class="logo" style="font-size: 24px; color: #3b5c03; font-weight: bold;">
-                    <i class="fa fa-user" style="display: inline-block;"></i>
-                    <span class="logo-text" style="display: inline-block;">SILK</span>
-                </a>
-            </div>
 
-            <!-- /Logo -->
             <a id="toggle_btn" href="javascript:void(0);">
                 <span class="bar-icon">
                     <span></span>
@@ -360,7 +363,7 @@
                 <!-- Notifications -->
                 <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                        <i class="fa fa-bell-o"></i>
+                        <i class="fa fa-bell-o" style="color : #66615b"></i>
                         <span class="badge badge-pill">{{ $unreadNotifications->count() }}</span>
                     </a>
                     <div class="dropdown-menu notifications">
@@ -507,10 +510,8 @@
                 <li class="nav-item dropdown has-arrow main-drop">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         <span class="user-img">
-                            <img src="{{ URL::to('/assets/images/' . Auth::user()->avatar) }}" alt="{{ Auth::user()->name }}">
-                            <span class="status online"></span>
+                            <i class="fa-solid fa-gear fa-xl" style="color : #66615b"></i>
                         </span>
-                        <span>{{ Session::get('name') }}</span>
                     </a>
                     <div class="dropdown-menu">
                         @if (Auth::user()->role_name == 'Admin')
@@ -540,18 +541,21 @@
                     <i class="fa fa-ellipsis-v"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
-                @if (Auth::user()->role_name == 'Admin')
-                    <a class="dropdown-item" href="{{ route('admin-profile') }}">Profil Saya</a>
-                @endif
-                @if (Auth::user()->role_name == 'Super Admin')
-                    <a class="dropdown-item" href="{{ route('super-admin-profile') }}">Profil Saya</a>
-                @endif
-                @if (Auth::user()->role_name == 'User')
-                    <a class="dropdown-item" href="{{ route('user-profile') }}">Profil Saya</a>
-                @endif
-                @if (Auth::user()->role_name == 'Admin' || Auth::user()->role_name == 'Super Admin')
-                    <a class="dropdown-item" href="{{ route('pengaturan-perusahaan') }}">Pengaturan</a>
-                @endif
+                    @if (Auth::user()->role_name == 'Admin')
+                        <a class="dropdown-item" href="{{ route('admin-profile') }}">Profil Saya</a>
+                    @endif
+                    @if (Auth::user()->role_name == 'Super Admin')
+                        <a class="dropdown-item" href="{{ route('super-admin-profile') }}">Profil Saya</a>
+                    @endif
+                    @if (Auth::user()->role_name == 'Kepala Ruang')
+                        <a class="dropdown-item" href="{{ route('kepala-ruangan-profile') }}">Profil Saya</a>
+                    @endif
+                    @if (Auth::user()->role_name == 'User')
+                        <a class="dropdown-item" href="{{ route('user-profile') }}">Profil Saya</a>
+                    @endif                        
+                    @if (Auth::user()->role_name == 'Admin' || Auth::user()->role_name == 'Super Admin')
+                        <a class="dropdown-item" href="{{ route('pengaturan-perusahaan') }}">Pengaturan</a>
+                    @endif
                     <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
                 </div>
             </div>

@@ -3,9 +3,19 @@
     <div class="sidebar-inner slimscroll">
         <div id="sidebar-menu" class="sidebar-menu">
             <ul>
+                <li class="sidebar-left">
+                    <a href="{{ route('home') }}">
+                        <div class="image">
+                            <img src="{{ URL::to('/assets/images/' . Auth::user()->avatar) }}" alt="{{ Auth::user()->name }}">
+                            <span class="status online"></span>
+                        </div>
+                        <span class="text">{{ Session::get('name') }}</span>
+                    </a>
+                    <div class="line"></div>
+                </li>
                 <li class="{{ set_active(['home']) }}">
                     <a href="{{ route('home') }}" class="{{ set_active(['home']) ? 'noti-dot' : '' }}">
-                        <i class="la la-dashboard"></i>
+                        <i class="fa fa-building-columns fa-2xs"></i>
                         <span>Beranda</span>
                     </a>
                 </li>
