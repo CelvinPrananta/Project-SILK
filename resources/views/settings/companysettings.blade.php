@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <!-- /Page Header -->
-                    <form action="{{ route('company/settings/save') }}" method="POST">
+                    <form action="{{ route('pengaturan-perusahaan-save') }}" method="POST">
                         @csrf
                         <input type="hidden" class="form-control" name="id" value="1">
                         <div class="row">
@@ -121,9 +121,21 @@
                                 <div class="form-group">
                                     <label>Nomor HP</label>
                                     @if (!empty($companySettings->mobile_number))
-                                    <input type="tel" class="form-control" name="mobile_number" value="{{ $companySettings->mobile_number }}">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">+62</span>
+                                        </div>
+                                        <input type="tel" class="form-control" id="c_mobile_number_value" name="mobile_number" value="{{ $companySettings->mobile_number }}">
+                                    </div>
+                                    <small id="error_message-1" class="text-danger2"></small>
                                     @else
-                                    <input type="tel" class="form-control" name="mobile_number" value="">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">+62</span>
+                                        </div>
+                                        <input type="tel" class="form-control" id="c_mobile_number_value" name="mobile_number" value="">
+                                    </div>
+                                    <small id="error_message-1" class="text-danger2"></small>
                                     @endif
                                 </div>
                             </div>
@@ -172,6 +184,19 @@
             } else {
                 logoIcon.style.display = 'inline-block';
                 logoText.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script>
+        document.getElementById('c_mobile_number_value').addEventListener('input', function(event) {
+            var inputValue = event.target.value;
+            
+            // Jika angka pertama adalah 0
+            if (inputValue.charAt(0) === '0') {
+                document.getElementById('error_message-1').innerHTML = 'Gunakan format yang benar. Contoh: 812345678';
+            } else {
+                document.getElementById('error_message-1').innerHTML = '';
             }
         });
     </script>
