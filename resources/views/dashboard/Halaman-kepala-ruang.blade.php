@@ -33,364 +33,331 @@
             </div>
             <!-- /Page Header -->
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataIGD }}</h3>
-                                    <span> Pegawai Ruang IGD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataBedahCentral }}</h3>
-                                    <span> Pegawai Ruang Bedah Central</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataRR }}</h3>
-                                    <span> Pegawai RR</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliJantung }}</h3>
-                                    <span> Pegawai Poli Jantung</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliKelaminDanKulit }}</h3>
-                                    <span> Pegawai Poli Kelamin dan Kulit</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliSaraf }}</h3>
-                                    <span> Pegawai Poli Saraf</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliGigi }}</h3>
-                                    <span> Pegawai Poli Gigi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliDalam }}</h3>
-                                    <span> Pegawai Poli Dalam</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliMata }}</h3>
-                                    <span> Pegawai Poli Mata</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliTHT }}</h3>
-                                    <span> Pegawai Poli THT</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliParu }}</h3>
-                                    <span> Pegawai Poli Paru</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliUmum }}</h3>
-                                    <span> Pegawai Poli Umum</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliAnak }}</h3>
-                                    <span> Pegawai Poli Anak</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliKandungan }}</h3>
-                                    <span> Pegawai Poli Kandungan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliJiwa }}</h3>
-                                    <span> Pegawai Poli Jiwa</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliOrthopedi }}</h3>
-                                    <span> Pegawai Poli Orthopedi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPoliDots }}</h3>
-                                    <span> Pegawai Poli Dots</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataHemodialisis }}</h3>
-                                    <span> Pegawai Ruang Hemodialisis</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataKebidanan }}</h3>
-                                    <span> Pegawai Kebidanan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPinang }}</h3>
-                                    <span> Pegawai Ruang Pinang</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPerinatologi }}</h3>
-                                    <span> Pegawai Perinatologi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataHCU_Bougenvill }}</h3>
-                                    <span> Pegawai Ruang HCU Bougenvill</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataICU }}</h3>
-                                    <span> Pegawai Ruang ICU</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataICCU }}</h3>
-                                    <span> Pegawai Ruang ICCU</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataAsoka }}</h3>
-                                    <span> Pegawai Ruang Asoka</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPinus }}</h3>
-                                    <span> Pegawai Ruang Pinus</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataWijayaKusuma }}</h3>
-                                    <span> Pegawai Ruang Wijaya Kusuma</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPaviliun }}</h3>
-                                    <span> Pegawai Ruang Paviliun</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataPalem_PICU }}</h3>
-                                    <span> Pegawai Ruang Palem PICU</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataUnitStroke }}</h3>
-                                    <span> Pegawai Ruang Unit Stroke</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataBidara_RanapJiwa }}</h3>
-                                    <span> Pegawai Ruang Ranap Jiwa</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataLain_Lain_NonPerawatan }}</h3>
-                                    <span> Pegawai Ruang Non Perawatan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="action-buttons">
+                    <button onclick="slideContent('left')" id="moveLeftButton" class="action-button action-button-primary"><span class="arrow-kiri"></span></button>
+                    <button onclick="slideContent('right')" id="moveRightButton" class="action-button action-button-primary"><span class="arrow-kanan"></span></button>
                 </div>
-            </div>
-            <div class="lihat-semua">
-                <button type="button" class="btn btn-info" style="border-radius: 20px" id="lihatSemuaPegawaiRuang"><i class="fa fa-eye-slash"></i> Lihat Semua</button>
-                <button type="button" class="btn btn-info" id="sembunyikanPegawaiRuang" style="display: none;border-radius: 20px;"><i class="fa fa-eye" style="color: white"></i> Sembunyikan</button>
+                <div id="slide-card-atas">
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataIGD }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang IGD
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataBedahCentral }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Bedah Central
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataRR }}</h2><br>
+                        <div class="currency">
+                            Pegawai RR
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliJantung }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Jantung
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliKelaminDanKulit }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Kelamin dan Kulit
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliSaraf }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Saraf
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliGigi }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Gigi
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliDalam }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Dalam
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliMata }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Mata
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliTHT }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli THT
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliParu }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Paru
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliUmum }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Umum
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliAnak }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Anak
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliKandungan }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Kandungan
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliJiwa }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Jiwa
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliOrthopedi }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Orthopedi
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPoliDots }}</h2><br>
+                        <div class="currency">
+                            Pegawai Poli Dots
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataHemodialisis }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Hemodialisis
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataKebidanan }}</h2><br>
+                        <div class="currency">
+                            Pegawai Kebidanan
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPinang }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Pinang
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPerinatologi }}</h2><br>
+                        <div class="currency">
+                            Pegawai Perinatologi
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataHCU_Bougenvill }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang HCU Bougenvill
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataICU }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang ICU
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataICCU }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang ICCU
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataAsoka }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Asoka
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPinus }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Pinus
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataWijayaKusuma }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Wijaya Kusuma
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPaviliun }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Paviliun
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataPalem_PICU }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Palem PICU
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataUnitStroke }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Unit Stroke
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataBidara_RanapJiwa }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Ranap Jiwa
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="#" class="slide-card-atass">
+                    <span class="dash-widget-icon"><i class="fa fa-users"></i></span>
+                    <div>
+                        <h2 role="presentation">{{ $dataLain_Lain_NonPerawatan }}</h2><br>
+                        <div class="currency">
+                            Pegawai Ruang Non Perawatan
+                        </div>
+                    </div>
+                    </a>
+                </div>
             </div><br>
 
             <div class="col-md-12">
@@ -403,376 +370,342 @@
                 </div>
             </div>
 
-            <div class="container" id="dataContainer">
-                <div class="row">
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidur }}</h3>
-                                    <span>Jumlah Tempat Tidur</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurIGD }}</h3>
-                                    <span>Tempat Tidur IGD Terpadu</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurBedah }}</h3>
-                                    <span>Tempat Tidur Bedah Center</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRR }}</h3>
-                                    <span>Tempat Tidur RR</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurPoliJantung }}</h3>
-                                    <span>Tempat Tidur Poli Jantung</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurPoliKelamindanKulit }}</h3>
-                                    <span>Tempat Tidur Poli Kelamin dan Kulit</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliSaraf }}</h3>
-                                    <span>Tempat Tidur Poli Saraf</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliGigi }}</h3>
-                                    <span>Tempat Tidur Poli Gigi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliDalam }}</h3>
-                                    <span>Tempat Tidur Poli Dalam</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliMata }}</h3>
-                                    <span>Tempat Tidur Poli Mata</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliTHT }}</h3>
-                                    <span>Tempat Tidur Poli THT</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliParu }}</h3>
-                                    <span>Tempat Tidur Poli Paru</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliUmum }}</h3>
-                                    <span>Tempat Tidur Poli Umum</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliAnak }}</h3>
-                                    <span>Tempat Tidur Poli Anak</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliKandungan }}</h3>
-                                    <span>Tempat Tidur Poli Kandungan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliJiwa }}</h3>
-                                    <span>Tempat Tidur Poli Jiwa</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliOrthopedi }}</h3>
-                                    <span>Tempat Tidur Poli Orthopedi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPoliDots }}</h3>
-                                    <span>Tempat Tidur Poli Dots</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangHemodialisis }}</h3>
-                                    <span>Tempat Tidur Hemodialisis</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangKebidanan }}</h3>
-                                    <span>Tempat Tidur Kebidanan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPinang }}</h3>
-                                    <span>Tempat Tidur Ruang Pinang</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPerinatologi }}</h3>
-                                    <span>Tempat Tidur Perinatologi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangCemara }}</h3>
-                                    <span>Tempat Tidur Ruang Cemara</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangHCUBougenvill }}</h3>
-                                    <span>Tempat Tidur HCU Bougenvill</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangICU }}</h3>
-                                    <span>Tempat Tidur Ruang ICU</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangICCU }}</h3>
-                                    <span>Tempat Tidur Ruang ICCU</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangAsoka }}</h3>
-                                    <span>Tempat Tidur Ruang Asoka</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPinus }}</h3>
-                                    <span>Tempat Tidur Ruang Pinus</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangWijayaKusuma }}</h3>
-                                    <span>Tempat Tidur Ruang Wijaya Kusuma</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPavilliun }}</h3>
-                                    <span>Tempat Tidur Ruang Pavilliun</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangPalem }}</h3>
-                                    <span>Tempat Tidur Ruang Palem</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangBidara }}</h3>
-                                    <span>Tempat Tidur Ruang Bidara</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-56">
-                        <div class="card dash-widget">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>{{ $dataTempatTidurRuangNonPerawatan }}</h3>
-                                    <span>Tempat Tidur Ruang Non Perawatan</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="container">
+                <div class="action-buttons2">
+                    <button onclick="slideContent2('left')" id="moveLeftButton2" class="action-button2 action-button2-primary"><span class="arrow-kiri2"></span></button>
+                    <button onclick="slideContent2('right')" id="moveRightButton2" class="action-button2 action-button2-primary"><span class="arrow-kanan2"></span></button>
                 </div>
-            </div>
-            <div class="lihat-semua">
-                <button type="button" class="btn btn-info" style="border-radius: 20px" id="lihatSemuaTempatTidur"><i class="fa fa-eye-slash"></i> Lihat Semua</button>
-                <button type="button" class="btn btn-info" id="sembunyikanTempatTidur" style="display: none;border-radius: 20px;"><i class="fa fa-eye" style="color: white"></i> Sembunyikan</button>
+                <div id="slide-card-bawah">
+                    <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidur }}</h2><br>
+                            <div class="currency">
+                                Jumlah Tempat Tidur
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurIGD }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur IGD Terpadu
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurBedah }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Bedah Center
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRR }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur RR
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurPoliJantung }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Jantung
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurPoliKelamindanKulit }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Kelamin dan Kulit
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliSaraf }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Saraf
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliGigi }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Gigi
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliDalam }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Dalam
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliMata }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Mata
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliTHT }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli THT
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliParu }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Paru
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliUmum }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Umum
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliAnak }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Anak
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliKandungan }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Kandungan
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliJiwa }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Jiwa
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliOrthopedi }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Orthopedi
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPoliDots }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Poli Dots
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangHemodialisis }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Hemodialisis
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangKebidanan }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Kebidanan
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPinang }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Pinang
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangKebidanan }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Perinatologi
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangCemara }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Cemara
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangHCUBougenvill }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur HCU Bougenvill
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangICU }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang ICU
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangICCU }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang ICCU
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangAsoka }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Asoka
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPinus }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Pinus
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangWijayaKusuma }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Wijaya Kusuma
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPavilliun }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Pavilliun
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangPalem }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Palem
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangBidara }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Bidara
+                            </div>
+                        </div>
+                        </a>
+                    
+                        <a href="#" class="slide-card-bawahs">
+                        <span class="dash-widget-icon"><i class="fa fa-bed"></i></span>
+                        <div>
+                            <h2 role="presentation">{{ $dataTempatTidurRuangNonPerawatan }}</h2><br>
+                            <div class="currency">
+                                Tempat Tidur Ruang Non Perawatan
+                            </div>
+                        </div>
+                        </a>
+                </div>
             </div><br>
 
             <div class="col-md-12">
@@ -857,5 +790,6 @@
     </div>
     @section('script')
         <script src="{{ asset('assets/js/dashboard.js') }}"></script>
+        <script src="{{ asset('assets/js/slide-card.js') }}"></script>
     @endsection
 @endsection
